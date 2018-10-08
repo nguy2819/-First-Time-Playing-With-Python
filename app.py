@@ -24,3 +24,20 @@ print("but didn't like being " + character_age + ".")
 # he was 70 years old.
 # He is really like the name George,
 # but didn't like being 70.
+
+# Working With Strings
+print("Tien Borland")
+print("Tien\nBorland") #2 lines
+print("Tien\"Borland") #print a " in the middle
+print("Tien\Borland") #print a \ in the middle
+
+phrase = "David Borland"
+print(phrase + " is a wonderful person")
+print(phrase.upper()) # DAVID BORLAND
+print(phrase.lower()) # david borland
+print(phrase.isupper()) # boolean question? => Answer is False
+print(phrase.upper().isupper()) # changed to all uppercase - then as if it is uppercase or not => Answer is True
+print(len(phrase)) # 13
+print(phrase[0]) # D
+print(phrase.index("a")) # 1
+print(phrase.replace("David", "Eliana")) # Eliana Borland
